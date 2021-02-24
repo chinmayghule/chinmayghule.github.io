@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*	{
+	box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 1000;
+}
+
+body 	{
+	margin: 0;
+	background-color:#D4CDF4;
+}
+
+
+nav 	{
+	display: flex;
+	justify-content: flex-end;
+    align-items: center;
+	top: 0;
+	background-color: #F6511D;
+}
+
+nav a	{
+    position: relative;
+    margin: 0px 20px 0px 0px;
+    padding: 0px 20px;
+	text-decoration: none;
+	color: #FFF;
+}
+
+nav a::after    {
+	content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(10px);
+    transition: transform 0.2s ease;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid #FFF;
+}
+
+
+nav a:hover::after	{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#welcome-section	{
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    margin: 150px auto;
+}
+
+
+h1 	{
+	font-size: 3rem;
+    text-align: center;
+}
+
+p   {
+    font-size: 2rem;
+}
+
+
+
+footer 	{
+	position: fixed;
+    margin: 0;
+    width: 100%;
+	background-color: #F6511D;
+	display: flex;
+    left: 0;
+    bottom: 0;
+	justify-content: center;
+}
+
+#profile-link a	{
+	display: inline-block;
+    color: #FFF;
+    padding: 30px 100px;
+}
+
+#profile-link a:hover   {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+#home-button    {
+    margin-right: auto;
+    padding: 16px 50px;
+    background-color: #F6511D;
+    color: #FFF;
+    border: none;
+}
+
+#home-button:hover  {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media only screen and (max-width: 400px)	{
+	/* do something */
+}
