@@ -10,7 +10,7 @@
 
 body 	{
 	margin: 0;
-	background-color:#D4CDF4;
+	background-color: #EDE7D9;
 }
 
 
@@ -20,6 +20,7 @@ nav 	{
     align-items: center;
 	top: 0;
 	background-color: #F6511D;
+    height: 50px;
 }
 
 nav a	{
@@ -80,10 +81,14 @@ footer 	{
 	justify-content: center;
 }
 
+#profile-link    {
+    height: 80px;
+}
+
 #profile-link a	{
 	display: inline-block;
     color: #FFF;
-    padding: 30px 100px;
+    padding: 30px 50px;
 }
 
 #profile-link a:hover   {
@@ -100,15 +105,19 @@ footer 	{
 }
 
 
-#home-button    {
+.fas    {
+    float:left;
+    left: 0;
     margin-right: auto;
-    padding: 16px 50px;
-    background-color: #F6511D;
+    margin-left: 0;
+    height: 50px;
+    padding: 17px 50px;
+    background-color:#F6511D;
     color: #FFF;
     border: none;
 }
 
-#home-button:hover  {
+.fas:hover  {
     cursor: pointer;
     color: rgba(255, 255, 255, 0.5);
 }
