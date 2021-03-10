@@ -32,7 +32,7 @@ h1  {
 }
 
 
-@media screen and (max-width: 320px) and (orientation: potrait){
+@media screen and (max-width: 300px) and (orientation: portrait){
     #model3 .model_content .model_paragraph {
         padding-left: 0;
         padding-right: 0;
